@@ -8,10 +8,11 @@ body {
     height: 100;
     overflow-x: hidden ;
     background-color: rgb(23, 114, 23) !important;
-    
+    position: relative;
 }
 header {
     min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.89);
 
 }
 #nav li a {
@@ -27,7 +28,7 @@ main {
 .carousel-inner {
     max-height: 35rem !important;
 }
-section {
+#seci {
     background-color: rgba(191, 238, 129, 0.76);
     height: 70vh;
 }
@@ -38,13 +39,36 @@ aside {
 }
 footer {
     background-color: rgba(0, 0, 0, 0.89);
-    min-height: 100px;
+    min-height: 10vh;
+    position:absolute;
+    bottom: 0;
+    
 }
 #iconos i {
     font-size: 1.5rem;
     padding: 0 8px;
     color: white;
 }
+
+.card {
+    background-color: rgba(191, 238, 129, 0.76) !important;
+}
+#secp {
+    background-color:  rgba(215, 240, 182, 0.76) ;
+    height: 100%;
+}
+#secp div img {
+    width: 180px !important;
+    height: 240px !important;
+    margin: 2px;
+}
+
+h1 {
+    z-index: 20;
+    font-size: 5rem !important;
+    color: rgba(255, 255, 255, 0.856) !important;
+}
+
 /* medias query */
 /* @media (max-width:576px) {
     section {
