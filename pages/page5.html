@@ -13,11 +13,11 @@
 
     <nav class="navbar navbar-expand-lg d-flex flex-wrap justify-content-around" id="nav">
         <div class="container-fluid">
-          <a class="navbar-brand col-5" href="../index.html"><img src="../assets/img/Logo-AgroPisani.png" alt="LOGO" width="200" height="100"></a>
+          <a class="navbar-brand  col-lg-5 col-xl-6 col-xxl-7 " href="../index.html"><img src="../assets/img/Logo-AgroPisani.png" alt="LOGO" width="200" height="100"></a>
           <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="container-fluid collapse navbar-collapse col-6" id="navbarNav">
+          <div class="collapse navbar-collapse col-lg-4 col-xl-3 col-xxl-3" id="navbarNav">
             <ul class="navbar-nav me-auto mb2 mb-lg-0 d-flex flex-wrap justify-content-center align-items-end">
               <li class="nav-item">
                 <a class="nav-link" href="../pages/page2.html">Nuevos</a>
@@ -37,11 +37,38 @@
       </nav>
   </header>
 
-  <main>
+  <main class="container-fluid">
+    <div class=" mt-1 d-flex flex-wrap justify-content-center align-items-center" style="position: relative;">
+      <img src="../assets/img/IMG-20230419-WA0001.jpg" height="300px" width="100%" alt="img1" class="rounded-2">
+      <h1 class="fw-bold fs-md-3 text-wrap " style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">Contactanos</h1>
+    </div>
+
+    <section id="secc" class=" container-fluid col p-3 mt-2 d-flex flex-wrap align-items-center border border-1 border-success rounded-4">
+      <div>
+        <h2>Telefonos de contacto</h2>
+        <p>Venta: Gabriel Pisani 0000000</p>
+        <p>Servicio Técnico: Federico Pisani 000000</p>
+      </div>
+
+    </section>
+    <aside id="asc" class=" container-fluid col p-3 mt-2 border border-1 border-success rounded-4">
+      <div class="col">
+        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+      </div>
+      <div class="col">
+        <label for="exampleFormControlInput1" class="form-label">Numero de telefono</label>
+        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="00000000">
+      </div>
+      <div class="col">
+        <label for="exampleFormControlTextarea1" class="form-label">Deje su consulta aquí</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+      </div>
+    </aside>
 
   </main>
 
-  <footer class="w-100 d-flex align-items-center flex-wrap justify-content-around fixed-bottom">
+  <footer class="w-100 d-flex align-items-center flex-wrap justify-content-around sticky-bottom">
     <div class="d-flex justify-content-center col-md-6 col-sm-6">
         <a href="../index.html"><img src="../assets/img/Logo-AgroPisani.png" alt="LOGO" width="200" height="100"></a>
     </div>

@@ -5,7 +5,7 @@
 }
 
 body {
-    height: 100;
+    height: 100vh;
     overflow-x: hidden ;
     background-color: rgb(23, 114, 23) !important;
     position: relative;
@@ -25,9 +25,11 @@ main {
     min-height: 100vh;
 
 }
+
 .carousel-inner {
-    max-height: 35rem !important;
+    max-height: 45vh;
 }
+
 #seci {
     background-color: rgba(191, 238, 129, 0.76);
     height: 70vh;
@@ -65,18 +67,30 @@ footer {
 
 h1 {
     z-index: 20;
-    font-size: 5rem !important;
+    font-size: 4rem !important;
     color: rgba(255, 255, 255, 0.856) !important;
+    text-align: center;
+}
+
+#btnp4 {
+    background-color: green;
+    color: white;
+    border-color: black;
+
+}
+
+#secc {
+    background-color: rgba(191, 238, 129, 0.76);
+    height: 30vh;
+}
+
+#asc {
+    background-color: rgba(191, 238, 129, 0.76);
+    height: 40vh;
 }
 
 /* medias query */
-/* @media (max-width:576px) {
-    section {
-        display: flex;
 
-    } */
-    
-/* } */
 @media (max-width:768px) {
     section {
         width: 90% !important;
@@ -84,5 +98,14 @@ h1 {
     }
     aside {
         width: 90% !important;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:540px) {
+    h1 {
+        font-size: 3rem !important;
     }
 }
