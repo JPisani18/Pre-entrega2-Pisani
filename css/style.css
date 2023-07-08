@@ -33,22 +33,22 @@ main {
 
 section {
     background-color: rgba(191, 238, 129, 0.76);
-    height: 70vh;
+    height: 60vh;
 }
 
 #seci {
     background-color: rgba(191, 238, 129, 0.76);
-    height: 70vh;
+    
 }
 
 aside {
     background-color: rgba(191, 238, 129, 0.76);
-    height: 70vh;
+    height: 60vh;
 }
 footer {
     background-color: rgba(0, 0, 0, 0.89);
     min-height: 10vh;
-    position:absolute;
+    position:fixed;
     bottom: 0;
     
 }
