@@ -9,6 +9,7 @@ body {
     overflow-x: hidden ;
     background-color: rgb(23, 114, 23) !important;
     position: relative;
+    font-family: Oswald !important;
 }
 header {
     min-height: 100px;
@@ -28,6 +29,11 @@ main {
 
 .carousel-inner {
     max-height: 45vh;
+}
+
+section {
+    background-color: rgba(191, 238, 129, 0.76);
+    height: 70vh;
 }
 
 #seci {
