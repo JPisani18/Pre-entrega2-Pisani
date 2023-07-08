@@ -22,10 +22,7 @@ header {
     color: white !important;
     text-align: end;
 }
-main {
-    min-height: 100vh;
 
-}
 
 .carousel-inner {
     max-height: 45vh;
@@ -33,7 +30,7 @@ main {
 
 section {
     background-color: rgba(191, 238, 129, 0.76);
-    
+    min-height: 60vh;
 }
 
 #seci {
@@ -43,7 +40,7 @@ section {
 
 aside {
     background-color: rgba(191, 238, 129, 0.76);
-    height: 60vh;
+    min-height: 60vh;
 }
 footer {
     background-color: rgba(0, 0, 0, 0.89);
