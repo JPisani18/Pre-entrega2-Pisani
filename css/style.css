@@ -87,12 +87,12 @@ h1 {
 
 #secc {
     background-color: rgba(191, 238, 129, 0.76);
-    height: 30vh;
+    height: 50%;
 }
 
 #asc {
     background-color: rgba(191, 238, 129, 0.76);
-    height: 40vh;
+    height: 50%;
 }
 
 /* medias query */
