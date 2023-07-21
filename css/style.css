@@ -1,114 +1,88 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
 
 body {
-    height: 100vh;
-    overflow-x: hidden ;
-    background-color: rgb(23, 114, 23) !important;
-    position: relative;
-    font-family: Oswald !important;
-}
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #177217 !important;
+  position: relative;
+  font-family: Oswald !important; }
+
 header {
-    min-height: 100px;
-    background-color: rgba(0, 0, 0, 0.89);
+  min-height: 100px;
+  background-color: rgba(0, 0, 0, 0.89); }
 
-}
 #nav li a {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: white !important;
-    text-align: end;
-}
-
-
-.carousel-inner {
-    max-height: 45vh;
-}
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white !important;
+  text-align: end; }
 
 section {
-    background-color: rgba(191, 238, 129, 0.76);
-    min-height: 60vh;
-}
-
-#seci {
-    background-color: rgba(191, 238, 129, 0.76);
-    
-}
+  background-color: rgba(191, 238, 129, 0.76);
+  min-height: 70vh; }
 
 aside {
-    background-color: rgba(191, 238, 129, 0.76);
-    min-height: 60vh;
-}
-footer {
-    background-color: rgba(0, 0, 0, 0.89);
-    min-height: 10vh;
-    position:fixed;
-    bottom: 0;
-    
-}
-#iconos i {
-    font-size: 1.5rem;
-    padding: 0 8px;
-    color: white;
-}
+  background-color: rgba(191, 238, 129, 0.76);
+  min-height: 70vh; }
+
+.carousel-inner {
+  max-height: 45vh; }
+
+#seci {
+  background-color: rgba(191, 238, 129, 0.76); }
 
 .card {
-    background-color: rgba(191, 238, 129, 0.76) !important;
-}
+  background-color: rgba(218, 233, 185, 0.76) !important; }
+
 #secp {
-    background-color:  rgba(215, 240, 182, 0.76) ;
-    height: 100%;
-}
+  background-color: rgba(191, 238, 129, 0.76);
+  height: 100%; }
+
 #secp div img {
-    width: 180px !important;
-    height: 240px !important;
-    margin: 2px;
-}
+  width: 180px !important;
+  height: 240px !important;
+  margin: 2px; }
 
 h1 {
-    z-index: 20;
-    font-size: 4rem !important;
-    color: rgba(255, 255, 255, 0.856) !important;
-    text-align: center;
-}
+  z-index: 20;
+  font-size: 4rem !important;
+  color: rgba(255, 255, 255, 0.856) !important;
+  text-align: center; }
 
 #btnp4 {
-    background-color: green;
-    color: white;
-    border-color: black;
-
-}
+  background-color: green;
+  color: white;
+  border-color: black; }
 
 #secc {
-    background-color: rgba(191, 238, 129, 0.76);
-    height: 50%;
-}
+  background-color: rgba(191, 238, 129, 0.76);
+  height: 50%; }
 
 #asc {
-    background-color: rgba(191, 238, 129, 0.76);
-    height: 50%;
-}
+  background-color: rgba(191, 238, 129, 0.76);
+  height: 50%; }
 
-/* medias query */
+footer {
+  background-color: rgba(0, 0, 0, 0.89);
+  min-height: 10vh;
+  position: fixed;
+  bottom: 0; }
+  footer #iconos i {
+    font-size: 1.5rem;
+    padding: 0 35px;
+    color: white; }
 
-@media (max-width:768px) {
-    section {
-        width: 90% !important;
-        
-    }
-    aside {
-        width: 90% !important;
-    }
-    h1 {
-        font-size: 2rem;
-    }
-}
+@media (max-width: 768px) {
+  section {
+    width: 90% !important; }
+  aside {
+    width: 90% !important; }
+  h1 {
+    font-size: 2rem; } }
 
-@media (max-width:540px) {
-    h1 {
-        font-size: 3rem !important;
-    }
-}
+@media (max-width: 540px) {
+  h1 {
+    font-size: 3rem !important; } }

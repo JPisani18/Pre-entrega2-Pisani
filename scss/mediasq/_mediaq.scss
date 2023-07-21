@@ -1,0 +1,18 @@
+@media (max-width:768px) {
+    section {
+        width: 90% !important;
+        
+    }
+    aside {
+        width: 90% !important;
+    }
+    h1 {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width:540px) {
+    h1 {
+        font-size: 3rem !important;
+    }
+}

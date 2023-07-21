@@ -1,0 +1,12 @@
+footer {
+    background-color: $color-head-foot;
+    min-height: 10vh;
+    position:fixed;
+    bottom: 0;  
+    
+    #iconos i {
+        font-size: 1.5rem;
+        padding: 0 35px;
+        color: white;
+    }
+}

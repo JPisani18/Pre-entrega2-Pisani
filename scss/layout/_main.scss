@@ -1,0 +1,57 @@
+
+
+section {
+    background-color: $color-sec;
+    min-height: 70vh;
+}
+
+aside {
+    background-color: $color-sec;
+    min-height: 70vh;
+}
+
+.carousel-inner {
+    max-height: 45vh;
+}
+
+#seci {
+    background-color:$color-sec;
+    
+}
+
+.card {
+    background-color: $color-cards!important;
+}
+#secp {
+    background-color: $color-sec;
+    height: 100%;
+}
+#secp div img {
+    width: 180px !important;
+    height: 240px !important;
+    margin: 2px;
+}
+
+h1 {
+    z-index: 20;
+    font-size: 4rem !important;
+    color: rgba(255, 255, 255, 0.856) !important;
+    text-align: center;
+}
+
+#btnp4 {
+    background-color: green;
+    color: white;
+    border-color: black;
+
+}
+
+#secc {
+    background-color:$color-sec;
+    height: 50%;
+}
+
+#asc {
+    background-color: $color-sec;
+    height: 50%;
+}
