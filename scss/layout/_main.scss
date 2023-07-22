@@ -12,8 +12,9 @@ aside {
 
 .carousel-inner {
     max-height: 45vh;
+    
 }
-
+//seccion index
 #seci {
     background-color:$color-sec;
     
@@ -22,15 +23,20 @@ aside {
 .card {
     background-color: $color-cards!important;
 }
+
+// sección paginas de ventas
 #secp {
     background-color: $color-sec;
     height: 100%;
-}
-#secp div img {
-    width: 180px !important;
-    height: 240px !important;
-    margin: 2px;
-}
+
+    & img {
+        width: 180px !important;
+        height: 240px !important;
+        margin: 2px;
+    }
+   
+    }
+ 
 
 h1 {
     z-index: 20;
@@ -46,6 +52,7 @@ h1 {
 
 }
 
+// sección contactos
 #secc {
     background-color:$color-sec;
     height: 50%;
